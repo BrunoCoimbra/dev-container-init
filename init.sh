@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended"
 
 if [[ $? -ne 0 ]]; then
   echo "Failed to install oh-my-zsh"
